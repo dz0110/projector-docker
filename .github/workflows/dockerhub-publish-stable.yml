@@ -41,16 +41,16 @@ jobs:
           # - imageName: projector-idea-c
           #   tag: 2020.2
           #   downloadLink: https://download.jetbrains.com/idea/ideaIC-2020.2.4.tar.gz
-          # - imageName: projector-idea-c
-          #   tag: 2020.3
-          #   downloadLink: https://download.jetbrains.com/idea/ideaIC-2020.3.4.tar.gz
+          - imageName: projector-idea-c
+            tag: 2020.3
+            downloadLink: https://download.jetbrains.com/idea/ideaIC-2020.3.4.tar.gz
           # - imageName: projector-idea-c
           #   tag: 2021.2
           #   downloadLink: https://download.jetbrains.com/idea/ideaIC-2021.2.3.tar.gz
-          - imageName: projector-idea-c
-            tag: 2021.3
-            downloadLink: https://download.jetbrains.com/idea/ideaIC-2021.3.2.tar.gz
-            isLatest: true
+          # - imageName: projector-idea-c
+          #   tag: 2021.3
+          #   downloadLink: https://download.jetbrains.com/idea/ideaIC-2021.3.2.tar.gz
+          #   isLatest: true
 
           # Idea Ultimate
           # - imageName: projector-idea-u
