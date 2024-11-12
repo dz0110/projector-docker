@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PROJECTOR_STABLE: v1.8.1
+      ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
+      ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
+      ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
     strategy:
       matrix:
         include:
